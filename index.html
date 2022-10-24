@@ -54,7 +54,6 @@
         </div>
     </section>
      <!-- second Subheading end -->
-
      <!-- main body start -->
      <main>
         <!-- Start of left Sidebar -->
@@ -101,9 +100,46 @@
                 </ul>
         </div>
         <!-- end of left Sidebar -->   
-        <div class="mid_body">
-          
+  
+          <div class="remaining_body">
+            <div class="mid_body">
+              <h1>< section>: The Generic Section element</h1>
+                <p>The < section> HTML element represents a generic standalone section of a document, which <br> doesn't have a more specific semantic element to represent it. Sections should always have a <br> heading, with very few exceptions.</p>
+                <h1>Attributes</h1>
+                <p>This element only includes the global attributes.</p>
+                <h1>Usage notes</h1>
+                <p>As mentioned above, < section> is a generic sectioning element, and should only be used if there isn't a more specific element to represent it. As an example, a navigation menu should be wrapped in a < nav> element, but a list of search results or a map display and its controls don't have specific elements, and could be put inside a < section>.</p>
+    
+                 <p> Also consider these cases:</p>  
+                 <ul>
+                <li>If the contents of the element represent a standalone, atomic unit of content that makes sense syndicated as a standalone piece (e.g. a blog post or blog comment, or a newspaper article), the < article> element would be a better choice.</li>
+                <li>If the contents represent useful tangential information that works alongside the main content, but is not directly part of it (like related links, or an author bio), use an < aside>.</li>
+                <li>If the contents represent the main content area of a document, use < main>.</li>
+                <li>If you are only using the element as a styling wrapper, use a < div>. An unwritten rule is that a < section> should logically appear in the outline of a document.</li>
+                 </ul>
+                 <p>To reiterate, each < section> should be identified, typically by including a heading (< h1> - < h6> element) as a child of the < section> element, wherever possible. See below for examples of where you might see a < section> without a heading.</p>
+                    <h1>Using a section without a heading</h1>
+                    <p>Circumstances where you might see < section> used without a heading are typically found in web application/UI sections rather than in traditional document structures. In a document, it doesn't really make any sense to have a separate section of content without a heading to describe its contents. Such headings are useful for all readers, but particularly useful for users of assistive technologies like screen readers, and they are also good for SEO.</p>
+                        <p>Consider however a secondary navigation mechanism. If the global navigation is already wrapped in a < nav> element, you could conceivably wrap a previous/next menu in a < section>:</p>
+                      <img src="image\example1.png" alt="">      
+                </div> 
+            <div class="right_bar">
+                <p>In this article</p>
+                <ul>
+                  <li>Try it</li>
+                  <li>Attributes</li>
+                  <li>Usage Notes</li>
+                  <li>Examples</li>
+                  <li>Specifications</li>
+                  <li>Browser compatibility</li>
+                  <li>See also</li>
+                </ul>
+            </div>
         </div> 
-     </main>
+         </main>
+         <footer>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veritatis, laudantium quo amet laborum, a maiores asperiores illo, itaque in quidem iste nihil? Ducimus sit aperiam ea dolorem minus sed officia dicta animi iste obcaecati vero tempora, odit aliquid ab recusandae assumenda atque. Accusamus et quidem quam adipisci vitae aut.</p>
+         </footer> 
+        
 </body>
 </html>
