@@ -17,10 +17,13 @@
 }
 .head a:hover {
     text-decoration: underline;
+    text-decoration-thickness: 30px;
     color: rgb(240, 120, 140);
 }
 .head span {
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(240, 120, 140);
+    text-decoration-thickness: 2px;
 }
 
 .subheading {
@@ -168,5 +171,65 @@ footer {
     /* margin-top: 80px; */
     height: 50vh;
     width: 100%;
-    background-color: rgb(237, 242, 247);
+    background-color: #f4f4f8;
+}
+.upper_footer {
+    display: flex;
+    color: rgb(89, 88, 88);
+    border-bottom: 1px solid #ccc;
+    
+}
+.left_footer {
+    padding: 2rem 4rem;
+}
+.left_footer h1 {
+    padding-bottom: 10px;
+}
+.fa-brands {
+    color: rgb(97, 96, 96);
+}
+.icon {
+    padding-top: 30px;
+}
+.icon a {
+    padding-right: 15px;
+}
+.right_footer {
+    margin-left: 5rem;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    font-size: 15px;
+    padding: 2rem 4rem;
+    
+}
+.right_footer li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.right_footer li:first-child {
+    font-size: 17px;
+}
+.right_footer a {
+    color: gray;
+}
+.lower_footer_up {
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+}
+.lower_footer a {
+    color: rgb(97, 96, 96);
+    font-size: 12px;
+    text-decoration-line:underline ;
+}
+.lower_footer a:hover {
+    text-decoration: none;
+}
+.lower_footer p {
+    color: rgb(97, 96, 96);
+    font-size: 12px;
+    padding: 30px 20px;
 }
