@@ -17,7 +17,6 @@
 }
 .head a:hover {
     text-decoration: underline;
-    text-decoration-thickness: 30px;
     color: rgb(240, 120, 140);
 }
 .head span {
@@ -36,9 +35,31 @@
 }
  .left_subheading ul, .right_subheading ul {
     display: flex;
-    gap: 1.5rem;
+    gap: .7rem;
     align-items: center;
     list-style: none;
+}
+.left_subheading img {
+    width: 30px;
+    height: 30px;
+}
+.pink {
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+}
+.pink:hover{
+    background-color: pink;
+    color:rgb(236, 73, 100) ;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+.logo li {
+   color: black;
+   font-weight: 300;
 }
 .btn1 {
     width: 80px;
@@ -52,13 +73,26 @@
     background-color: black;
     color: white;
     font-weight: 600;
+    border-radius: 5px;
+}
+.btn2:hover {
+    background-color: rgb(109, 109, 109);
 }
 .left_subheading{
     font-size: 1rem;
+    padding-right: 10px;
+    letter-spacing: 1px;
     color: gray;
 }
 .right_subheading {
     font-weight: 600;
+}
+.right_subheading ul li:first-child{
+    padding: 10px;
+    border-radius: 5px;
+}
+.right_subheading ul li:first-child:hover {
+    background-color: rgb(227, 224, 224);
 }
 .subheading2 {
     width: 100%;
@@ -87,10 +121,10 @@ main {
 .left_sidebar li {
     padding: 15px 0px;
 }
-.left_sidebar a {
+.left_sidebar a, .left_subheading a {
     color: gray;
 }
-.left_sidebar a:hover {
+.left_sidebar a:hover ,.left_subheading a:hover{
     text-decoration: underline;
 }
 .left_sidebar .sectn {
@@ -163,6 +197,9 @@ font-size: 1rem;
 color: gray;
 line-height: 1.3rem;
 padding: 10px;
+}
+.right_bar li:hover {
+    color: rgb(132, 117, 229);
 }
 .right_bar ul {
     border-left: 1px solid gray;
